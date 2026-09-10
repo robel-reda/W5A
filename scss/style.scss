@@ -1,0 +1,17 @@
+// Variables
+$primary-color: #3498db;
+
+// Imports
+@import 'header';
+@import 'footer';
+
+// Nesting example
+main {
+  padding: 20px;
+  background-color: lighten($primary-color, 40%);
+
+  p {
+    color: $primary-color;
+    line-height: 1.6;
+  }
+}

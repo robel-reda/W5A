@@ -1,0 +1,26 @@
+header {
+  background-color: #333;
+  padding: 15px;
+}
+header h1 {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+footer {
+  background-color: #222;
+  color: #bbb;
+  text-align: center;
+  padding: 10px;
+}
+
+main {
+  padding: 20px;
+  background-color: rgb(88.3419476577%, 94.084830585%, 97.9325621462%);
+}
+main p {
+  color: #3498db;
+  line-height: 1.6;
+}
+
+/*# sourceMappingURL=style.css.map */

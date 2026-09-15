@@ -1,22 +1,45 @@
 // Variables
-$accent-color: #e74c3c;
+$color-dark: #24292e;
+$color-white: #ffffff;
+$color-background: #f2f5f8;
+$color-text: #222222;
 
-// Imports
-@import 'header';
-@import 'footer';
+// Import partials
+@import "header";
+@import "footer";
 
-// Nesting example
+// About Me page
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: $color-background;
+    color: $color-text;
+}
+
 main {
-  padding: 20px;
+    padding: 30px;
+    text-align: center;
 
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    p {
+        max-width: 700px;
+        margin: 20px auto;
+        line-height: 1.6;
+    }
+
+  }
   .profile-card {
-    border: 2px solid $accent-color;
-    border-radius: 8px;
-    padding: 15px;
 
     img {
-      max-width: 100%;
-      height: auto;
+        width: 200px;
+        height: auto;
+        border-radius: 8px;
     }
-  }
+}main .profile-card img {
+    width: 100px;
+    height: auto;
 }
